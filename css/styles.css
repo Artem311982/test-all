@@ -1,0 +1,69 @@
+body {
+    box-sizing: border-box;
+}
+
+/* Стили для обнуления верхних отступов у элементов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Класс для обнуления базовых свойств у списков (ul) */
+.list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Класс для обнуления базовых свойств у ссылок */
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Свойства для корректного отображения картинок */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Свойства для обнуления курсива у address */
+address {
+    font-style: normal;
+    /* or */
+    font-style: inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.box-one {
+    display: flex;
+    margin: 10px;
+    border: 10px;
+    outline: 2px dashed green;
+}
+
+.box {
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #f44336;
+    padding: 30px;
+    margin: 100px;
+    background-color: #ffeb3b;
+}
+
+.par {
+    
+}
